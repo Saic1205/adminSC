@@ -24,7 +24,7 @@ const loaders = require("@medusajs/medusa/dist/loaders/index").default
         })
       )
 
-      // Handle graceful shutdown
+      // Handle graceful shutdown s
       const gracefulShutDown = () => {
         server
           .shutdown()
